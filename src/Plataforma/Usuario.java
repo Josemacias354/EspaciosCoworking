@@ -1,3 +1,5 @@
+package Plataforma;
+
 public class Usuario {
     private String nombre;
     private String correoElectronico;
@@ -17,6 +19,11 @@ public class Usuario {
 
     public String getCorreoElectronico() {
         return correoElectronico;
+    }
+
+    public <string> void setNombre() {
+        this.nombre = nombre;
+
     }
 
     // Otros métodos relevantes...

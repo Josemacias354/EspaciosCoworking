@@ -1,3 +1,5 @@
+package Plataforma;
+
 public class Escritorio {
     private int numero;
     private boolean disponible;

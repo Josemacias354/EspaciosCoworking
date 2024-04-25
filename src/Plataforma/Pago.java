@@ -1,3 +1,5 @@
+package Plataforma;
+
 public class Pago {
     protected int id;
     protected Usuario usuario;

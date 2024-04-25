@@ -1,3 +1,5 @@
+package Plataforma;
+
 public class ServicioAdicional {
     private String nombre;
     private double precio;

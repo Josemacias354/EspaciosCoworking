@@ -1,3 +1,8 @@
+package Plataforma;
+
+import Plataforma.Escritorio;
+import Plataforma.EspacioCoworking;
+
 import java.time.LocalDateTime;
 
 public class Reserva {

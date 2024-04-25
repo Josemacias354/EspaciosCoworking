@@ -1,3 +1,5 @@
+package Plataforma;
+
 public class SalaReuniones {
     private String nombre;
     private int capacidad;
