@@ -1,20 +1,26 @@
 package Plataforma;
 
-public class SalaReuniones {
-    private String nombre;
+public class SalaReuniones extends EspacioCoworking {
+
     private int capacidad;
     private boolean disponible;
 
-    // Constructor
+
     public SalaReuniones(String nombre, int capacidad) {
         this.nombre = nombre;
         this.capacidad = capacidad;
         this.disponible = true;
     }
 
-    // Métodos getter y setter
+
+    @Override
     public String getNombre() {
-        return nombre;
+        return super.getNombre();
+    }
+
+    @Override
+    public void setNombre(String nombre) {
+        super.setNombre(nombre);
     }
 
     public int getCapacidad() {

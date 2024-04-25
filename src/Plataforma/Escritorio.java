@@ -1,16 +1,14 @@
 package Plataforma;
 
-public class Escritorio {
+public class Escritorio extends EspacioCoworking{
     private int numero;
     private boolean disponible;
 
-    // Constructor
     public Escritorio(int numero) {
         this.numero = numero;
         this.disponible = true;
     }
 
-      // Métodos getter y setter
     public int getNumero() {
         return numero;
     }

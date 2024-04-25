@@ -5,14 +5,13 @@ public class Usuario {
     private String correoElectronico;
     private String contrasena;
 
-    // Constructor
+
     public Usuario(String nombre, String correoElectronico, String contrasena) {
         this.nombre = nombre;
         this.correoElectronico = correoElectronico;
         this.contrasena = contrasena;
     }
 
-    // Métodos getter y setter
     public String getNombre() {
         return nombre;
     }
@@ -26,5 +25,5 @@ public class Usuario {
 
     }
 
-    // Otros métodos relevantes...
+
 }

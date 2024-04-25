@@ -13,7 +13,7 @@ public class Reserva {
     private LocalDateTime fechaInicio;
     private LocalDateTime fechaFin;
 
-    // Constructor
+
     public Reserva(Usuario usuario, EspacioCoworking espacio, Escritorio escritorio, SalaReuniones salaReunion, LocalDateTime fechaInicio, LocalDateTime fechaFin) {
         this.usuario = usuario;
         this.espacio = espacio;
@@ -23,7 +23,7 @@ public class Reserva {
         this.fechaFin = fechaFin;
     }
 
-    // Métodos getter y setter
+
     public Usuario getUsuario() {
         return usuario;
     }
