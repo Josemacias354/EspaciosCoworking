@@ -7,7 +7,7 @@ public class SalaReuniones extends EspacioCoworking {
 
 
     public SalaReuniones(String nombre, int capacidad) {
-        this.nombre = nombre;
+        super.setNombre(nombre);
         this.capacidad = capacidad;
         this.disponible = true;
     }
