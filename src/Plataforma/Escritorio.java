@@ -20,4 +20,14 @@ public class Escritorio extends EspacioCoworking{
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
+
+    @Override
+    public void Disponible() {
+        if (disponible) {
+            System.out.println("El escritorio " + numero + " está disponible");
+        } else {
+            System.out.println("El escritorio " + numero + " no está disponible");
+        }
+        
+    }
 }

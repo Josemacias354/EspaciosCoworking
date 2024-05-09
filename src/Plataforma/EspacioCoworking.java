@@ -13,6 +13,7 @@ public abstract class EspacioCoworking {
         return nombre;
     }
 
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -40,5 +41,6 @@ public abstract class EspacioCoworking {
     public void setServicios(List<Servicio> servicios) {
         this.servicios = servicios;
     }
-}
 
+    public abstract void Disponible();
+}

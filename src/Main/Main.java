@@ -1,5 +1,6 @@
 package Main;
 import Plataforma.Escritorio;
+import Plataforma.SalaReuniones;
 import Plataforma.Servicio;
 import Plataforma.Usuario;
 import org.junit.Test;
@@ -22,6 +23,11 @@ Servicio servicio2 = new Servicio("Cafeteria", 10.0);
         Escritorio escritorio1 = new Escritorio(1);
         Escritorio escritorio2 = new Escritorio(2);
         Escritorio escritorio3 = new Escritorio(3);
+
+
+        // Create instances of SalaReuniones
+        SalaReuniones salaReuniones1 = new SalaReuniones("SalaStreaming", 10);
+        SalaReuniones salaReuniones2 = new SalaReuniones("Salaproyecto", 20);
 
     }
 }

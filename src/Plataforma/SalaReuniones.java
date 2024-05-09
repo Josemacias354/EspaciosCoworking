@@ -18,6 +18,7 @@ public class SalaReuniones extends EspacioCoworking {
         return super.getNombre();
     }
 
+
     @Override
     public void setNombre(String nombre) {
         super.setNombre(nombre);
@@ -29,6 +30,15 @@ public class SalaReuniones extends EspacioCoworking {
 
     public boolean isDisponible() {
         return disponible;
+    }
+
+    @Override
+    public void Disponible() {
+        if (disponible) {
+            System.out.println("La sala de reuniones " + super.getNombre() + " está disponible");
+        } else {
+            System.out.println("La sala de reuniones " + super.getNombre() + " no está disponible");
+        }
     }
 
     public void setDisponible(boolean disponible) {
