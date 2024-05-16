@@ -24,6 +24,9 @@ public class Usuario {
         this.nombre = nombre;
 
     }
+    public String getContrasena() {
+        return contrasena;
+    }
 
 
 }
